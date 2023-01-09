@@ -1,0 +1,11 @@
+body {
+    text-align: center;
+    color:white;
+    background-color: rgb(24, 24, 41);
+    font-size: 2em;
+}
+#button {
+    font-size: 2em;
+    background-color: azure;
+    border:none;
+}
