@@ -4,8 +4,27 @@ body {
     background-color: rgb(24, 24, 41);
     font-size: 2em;
 }
-#button {
+.choices {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    border:none;
+}
+button, img {
+    width:40vw;
+    border:none;
+    height:auto;
+    background-color: rgb(24, 24, 41);
+}
+#score {
+    width:auto;
+    height:auto;
     font-size: 2em;
     background-color: azure;
     border:none;
+}
+@media screen and (min-width:1024px) {
+    button, img {
+        width:10vw;
+    }
 }
